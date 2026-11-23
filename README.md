@@ -17,8 +17,8 @@ Overall size is about 77 × 79 × 36 mm — small enough to live next to a
 keyboard as a status display, a mini dashboard, a clock, or the heart of
 a pocket cyberdeck build.
 
-![Assembled case render](images/preview_3d_closed.png)
-![Case top render](images/preview_top.png)
+![Assembled case render](preview_3d_closed.png)
+![Case top render](preview_top.png)
 
 ## Board compatibility
 
@@ -57,15 +57,15 @@ ST7789 or you'll get a smeared picture and wrong colors.
 
 ## Files
 
-- `stl/base.stl` — the case base (print floor-down)
-- `stl/lid.stl` — the lid (print flat, outer face on the plate)
+- `base.stl` — the case base (print floor-down)
+- `lid.stl` — the lid (print flat, outer face on the plate)
 - `source/build_case_v4.py` — the parametric source that generates the
   STLs (Python, needs `numpy` and `trimesh`; writes to an `out4` folder
   beside the script). Every fit-critical dimension comes from the
   official Pi Zero and GoldenMorning drawings, plus one caliper check of
   the real module.
 - `software/` — how to drive the display (next section)
-- `images/` — renders of the assembled case
+- `preview_3d_closed.png`, `preview_top.png` — renders of the assembled case
 
 ## Printing
 
