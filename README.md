@@ -71,8 +71,9 @@ ST7789 or you'll get a smeared picture and wrong colors.
 
 Two parts, no supports. Print the base floor-down and the lid flat with
 its outer face on the plate. The reference print was done on a Bambu Lab
-A1 with a 0.4 mm nozzle. The case is also on MakerWorld with a ready-made
-print profile (link to be added).
+A1 with a 0.4 mm nozzle. The case is also on MakerWorld with ready-made
+print profiles for both parts:
+https://makerworld.com/en/models/3673258-pi-zero-case-for-gmt024-08-2-4-spi-lcd-st7789v
 
 ## Wiring
 
